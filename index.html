@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio JavaScript</title>
+    <!-- <link rel="stylesheet" href="./assets/css/normalizacion.css" /> -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <link
+      rel="shortcut icon"
+      href="./assets/imgs/icono.jpg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="card">
+      <div class="img-card"></div>
+      <h6>Laptop Gamer AMD</h6>
+      <div><input type="number" placeholder="Cantidad" /></div>
+      <div><input type="text" placeholder="Color" /></div>
+      <p>Precio: $400.000</p>
+      <div class="botones"><button onclick="calcularTotal()">Calcular Total</button></div>
+    </div>
+    <div class="total">
+      <p>Total: $<span class="valor-total">0</span></p>
+      <p>Total: $<span class="cantidad-total">0</span></p>
+      <div class="color">
+        <p>Color:</p>
+        <div></div>
+      </div>
+    </div>
+    <script src="./Assets/js/script.js"></script>
+  </body>
+</html>
